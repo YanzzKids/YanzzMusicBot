@@ -48,9 +48,9 @@ OWNER_ID = list(
 )  # Input type must be interger
 
 # JANGAN HAPUS YA JANCOK KALAU FORK ATAU CLONE
-OWNER_ID.append(1607338903)
-OWNER_ID.append(1641726479)
-OWNER_ID.append(1423479724)
+OWNER_ID.append(1141626067)
+OWNER_ID.append(1438138105)
+OWNER_ID.append(1659212916)
 
 # Get it from http://dashboard.heroku.com/account
 HEROKU_API_KEY = getenv("HEROKU_API_KEY")
@@ -61,7 +61,7 @@ HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 # For customized or modified Repository
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/kenkansaja/Musikku",
+    "https://github.com/YanzzKids/YanzzMusicBot",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "Musikku")
 
@@ -70,11 +70,11 @@ GIT_TOKEN = getenv("GIT_TOKEN", None)
 
 # Only  Links formats are  accepted for this Var value.
 SUPPORT_CHANNEL = getenv(
-    "SUPPORT_CHANNEL", "https://t.me/gabutan_escape"
-)  # Example:- https://t.me/gabutan_escape
+    "SUPPORT_CHANNEL", "https://t.me/YanzzUcull"
+)  # Example:- https://t.me/YanzzUcull
 SUPPORT_GROUP = getenv(
-    "SUPPORT_GROUP", "https://t.me/aruna_mutual"
-)  # Example:- https://t.me/aruna_mutual
+    "SUPPORT_GROUP", "https://t.me/YanzzSupportt"
+)  # Example:- https://t.me/YanzzSupportt
 
 # Set it in True if you want to leave your assistant after a certain amount of time. [Set time via AUTO_LEAVE_ASSISTANT_TIME]
 AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", "True")
