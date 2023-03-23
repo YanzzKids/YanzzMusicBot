@@ -14,8 +14,8 @@ import sys
 from pyrogram import idle
 
 import config
-from config import BANNED_USERS, BOT_NAME
-from Musikku import LOGGER, app, userbot
+from config import BANNED_USERS
+from Musikku import LOGGER, BOT_ NAME, app, userbot
 from Musikku.core.call import Musikku
 from Musikku.plugins import ALL_MODULES
 from Musikku.utils.database import get_banned_users, get_gbanned
