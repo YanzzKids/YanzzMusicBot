@@ -12,7 +12,7 @@ from datetime import datetime
 from pyrogram import filters
 from pyrogram.types import Message
 
-from config import BANNED_USERS, MUSIC_BOT_NAME, PING_IMG_URL
+from config import BANNED_USERS, MUSIC_BOT_NAME, BOT_NAME, PING_IMG_URL
 from strings import get_command
 from Musikku import app
 from Musikku.core.call import Musikku
